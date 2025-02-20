@@ -1,0 +1,7 @@
+# Lab6
+string[] GroceryItems = {"Milk","Bread", "Eggs", "Sugar","Rice"};
+Console.WriteLine("GroceryList:");
+for(int i=0; i< GroceryItems.Length; i++)
+  {
+  Console.WriteLine($"{i+1}. {GroceryItems[i]}");
+  }
